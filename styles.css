@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #AAC8A7;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border: 5px solid black;
+    border-radius: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #FFFEC4;
+    height: 150px;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding: 12px 30px 12px 30px;
+    border-radius: 30px;
+    background-color: #fdceb6;
+    font-weight: bolder;
+    font-size: 15px;
+    box-shadow: 0px 0px 1px;
+    transform: all 2s esase;
+    transition-duration: .3s;
+    margin: 20px;
+}
+
+button:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 7px 1px rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+button:active {
+    transform: translateY(10px);
+    box-shadow: 0px 0px 1px;
+}
+
+.bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in-img,
+.fb-img {
+    height: 50px;
+    width: 50px;
+    margin: 25px;
+}
+
+.dev {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
